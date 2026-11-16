@@ -1,6 +1,7 @@
 import type {
   ApiIpaSymbolDto,
   ApiPracticeMediaLessonDto,
+  ApiPracticeStatsDto,
   ApiVocabCardDto,
   ApiVocabDeckDto,
 } from '@/lib/apiClient';
@@ -297,5 +298,59 @@ export const FALLBACK_MEDIA_LESSONS: ApiPracticeMediaLessonDto[] = [
         textVi: 'Được rồi, có lẽ bạn có lý ở điểm đó.',
       },
     ],
+    studyGuide: {
+      summaryVi:
+        'Bài hội thoại giữa Emir và Paul minh họa cách đồng ý và phản biện lịch sự trong buổi review thiết kế sản phẩm.',
+      patterns: [
+        {
+          formula: "I'm not convinced by + [idea / noun]",
+          meaningVi: 'Tôi chưa thực sự bị thuyết phục bởi...',
+          exampleEn: "I'm not convinced by that idea.",
+        },
+        {
+          formula: "Maybe you've got a point there.",
+          meaningVi: 'Có lẽ bạn có lý ở điểm đó.',
+          exampleEn: "OK, maybe you've got a point there.",
+        },
+      ],
+      usefulPhrases: ['not convinced by', "don't get me wrong", 'fit the brief', 'got a point'],
+      mindmapBranches: [
+        { label: 'Mở đầu phản biện lịch sự', items: ["I'm not convinced by...", "I'm not so sure."] },
+        { label: 'Bảo vệ phương án thiết kế', items: ['clean and minimal', 'fit the brief'] },
+        { label: 'Đi tới đồng thuận', items: ["Maybe you've got a point", 'creates a nice balance'] },
+      ],
+      quizItems: [
+        {
+          id: 'q-bc-1',
+          question: 'Cụm "I\'m not convinced by that idea" dùng để làm gì?',
+          options: [
+            'Bày tỏ sự chưa bị thuyết phục một cách lịch sự',
+            'Đồng ý ngay lập tức với đồng nghiệp',
+            'Kết thúc cuộc họp sớm',
+            'Yêu cầu gia hạn thanh toán',
+          ],
+          answer: 'Bày tỏ sự chưa bị thuyết phục một cách lịch sự',
+        },
+      ],
+      speakingPromptVi:
+        'Đóng vai 1-1 với giáo viên: đưa ra 1 điểm bạn thích và 1 điểm muốn chỉnh sửa về giao diện ứng dụng bạn hay dùng.',
+    },
   },
 ];
+
+export const FALLBACK_PRACTICE_STATS: ApiPracticeStatsDto = {
+  streakDays: 5,
+  todayMinutes: 18,
+  dailyGoalMinutes: 30,
+  totalCardsLearned: 24,
+  totalAttempts: 12,
+  heatmap30Days: Array.from({ length: 30 }, (_, i) => {
+    const dayNum = i + 1;
+    const count = i >= 25 ? ((i % 3) + 2) : (i % 4 === 0 ? 0 : (i % 3) + 1);
+    return {
+      dateIso: `2026-11-${String(Math.min(30, dayNum)).padStart(2, '0')}`,
+      count,
+      minutes: count * 6,
+    };
+  }),
+};

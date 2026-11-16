@@ -20,17 +20,52 @@ export function playPronunciation(text: string, audioUrl?: string, rate = 1.0): 
   speakWithTts(text, rate);
 }
 
-export function speakWithTts(text: string, rate = 1.0): void {
+export function speakWithTts(text: string, rate = 1.0, accent: 'en-US' | 'en-GB' = 'en-US'): void {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   try {
     window.speechSynthesis.cancel();
     const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = 'en-US';
+    utter.lang = accent;
     utter.rate = Math.min(1.5, Math.max(0.5, rate));
     window.speechSynthesis.speak(utter);
   } catch {
     // Ignore audio errors in headless environments
   }
+}
+
+export function playAccentAudio(
+  text: string,
+  accent: 'en-US' | 'en-GB',
+  audioUrl?: string,
+  rate = 1.0,
+): void {
+  if (typeof window === 'undefined') return;
+  if (audioUrl) {
+    try {
+      const audio = new Audio(audioUrl);
+      audio.playbackRate = rate;
+      void audio.play().catch(() => {
+        speakWithTts(text, rate, accent);
+      });
+      return;
+    } catch {
+      // Fall through to TTS
+    }
+  }
+  speakWithTts(text, rate, accent);
+}
+
+export function extractYoutubeIdClient(url: string): string | null {
+  const trimmed = url.trim();
+  const patterns = [
+    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)([A-Za-z0-9_-]{11})/,
+    /^([A-Za-z0-9_-]{11})$/,
+  ];
+  for (const p of patterns) {
+    const m = trimmed.match(p);
+    if (m?.[1]) return m[1];
+  }
+  return null;
 }
 
 export function computeClientSrsPreview(

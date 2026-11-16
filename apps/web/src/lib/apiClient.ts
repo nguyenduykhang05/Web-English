@@ -555,6 +555,15 @@ export interface ApiMediaSegmentDto {
   keyPhrase?: string;
 }
 
+export interface ApiMediaStudyGuideDto {
+  summaryVi: string;
+  patterns: { formula: string; meaningVi: string; exampleEn: string }[];
+  usefulPhrases: string[];
+  mindmapBranches: { label: string; items: string[] }[];
+  quizItems: { id: string; question: string; options: string[]; answer: string }[];
+  speakingPromptVi: string;
+}
+
 export interface ApiPracticeMediaLessonDto {
   id: string;
   slug: string;
@@ -570,7 +579,31 @@ export interface ApiPracticeMediaLessonDto {
   sourceName: string;
   sourceUrl: string;
   licenseNote?: string;
+  isSystem?: boolean;
   segments: ApiMediaSegmentDto[];
+  studyGuide?: ApiMediaStudyGuideDto;
+}
+
+export interface ApiWordLookupDto {
+  term: string;
+  ipa: string;
+  partOfSpeech: string;
+  meaningVi: string;
+  definitionEn: string;
+  exampleEn?: string;
+  audioUsUrl?: string;
+  audioUkUrl?: string;
+  cambridgeUrl: string;
+  oxfordUrl: string;
+}
+
+export interface ApiPracticeStatsDto {
+  streakDays: number;
+  todayMinutes: number;
+  dailyGoalMinutes: number;
+  totalCardsLearned: number;
+  totalAttempts: number;
+  heatmap30Days: { dateIso: string; count: number; minutes: number }[];
 }
 
 export interface ApiWordDiffDto {
