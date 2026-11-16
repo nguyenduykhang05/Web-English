@@ -1,0 +1,473 @@
+{
+  "decks": [
+    {
+      "slug": "ngsl-core-a1-a2",
+      "title": "Everyday Core Foundation (A1–A2)",
+      "titleVi": "Từ vựng Nền tảng Giao tiếp Hàng ngày (A1–A2)",
+      "description": "Những từ tần suất cao nhất theo chuẩn New General Service List (NGSL) cho giao tiếp đời sống, kèm phát âm IPA và audio Wikimedia.",
+      "category": "cefr",
+      "cefrLevel": "A2",
+      "goalType": "communication",
+      "sourceName": "NGSL + Free Dictionary API (CC-BY-SA)",
+      "sourceUrl": "https://www.newgeneralservicelist.org/"
+    },
+    {
+      "slug": "cefr-b1-workplace-fluency",
+      "title": "Workplace & Social Interaction (B1)",
+      "titleVi": "Giao tiếp Công sở & Tương tác Xã hội (B1)",
+      "description": "Từ vựng chủ đề điểm mạnh, giải quyết vấn đề, lịch hẹn và phản hồi tự nhiên tại nơi làm việc.",
+      "category": "cefr",
+      "cefrLevel": "B1",
+      "goalType": "communication",
+      "sourceName": "NGSL + Free Dictionary API (CC-BY-SA)",
+      "sourceUrl": "https://dictionaryapi.dev/"
+    },
+    {
+      "slug": "ielts-academic-urban-env",
+      "title": "IELTS Band 7.0+ Academic & Environment",
+      "titleVi": "Từ vựng Học thuật IELTS: Đô thị & Môi trường (B2–C1)",
+      "description": "Tuyển chọn từ vựng học thuật AWL/NAWL thường dùng trong IELTS Speaking Part 3 và Writing Task 2.",
+      "category": "ielts",
+      "cefrLevel": "B2",
+      "goalType": "ielts",
+      "sourceName": "Academic Word List + Free Dictionary API",
+      "sourceUrl": "https://dictionaryapi.dev/"
+    },
+    {
+      "slug": "business-meetings-negotiation",
+      "title": "Business Meetings & Stakeholder Alignment",
+      "titleVi": "Tiếng Anh Họp Nhóm, Đàm phán & Agile (B2)",
+      "description": "Thuật ngữ và động từ mạnh phục vụ họp stand-up, thuyết trình, thương lượng deadline và báo cáo.",
+      "category": "business",
+      "cefrLevel": "B2",
+      "goalType": "business",
+      "sourceName": "Business Service List + Free Dictionary API",
+      "sourceUrl": "https://dictionaryapi.dev/"
+    }
+  ],
+  "cards": [
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "schedule",
+      "ipa": "/ˈskɛ.dʒu.əl/",
+      "partOfSpeech": "noun",
+      "meaningVi": "lịch trình, thời gian biểu",
+      "definitionEn": "A slip of paper; a short note.",
+      "exampleEn": "Let me check my schedule before confirming our next lesson.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/schedule-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "improve",
+      "ipa": "/ɪmˈpɹuːv/",
+      "partOfSpeech": "verb",
+      "meaningVi": "cải thiện, tiến bộ",
+      "definitionEn": "To make (something) better; to increase the value or productivity (of something).",
+      "exampleEn": "Buying more servers would improve performance.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/improve-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "habit",
+      "ipa": "/ˈhæbət/",
+      "partOfSpeech": "noun",
+      "meaningVi": "thói quen",
+      "definitionEn": "An action performed on a regular basis.",
+      "exampleEn": "It’s become a habit of mine to have a cup of coffee after dinner.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/habit-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "explain",
+      "ipa": "/ɛkˈspleɪn/",
+      "partOfSpeech": "verb",
+      "meaningVi": "giải thích",
+      "definitionEn": "To make plain, manifest, or intelligible; to clear of obscurity; to illustrate the meaning of.",
+      "exampleEn": "To explain a chapter of the Bible.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/explain-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "confident",
+      "ipa": "/ˈkɒn.fɪ.dənt/",
+      "partOfSpeech": "noun",
+      "meaningVi": "tự tin",
+      "definitionEn": "A person in whom one can confide or share one's secrets: a friend.",
+      "exampleEn": "She feels much more confident speaking English during team calls.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/confident-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "recommend",
+      "ipa": "/ɹɛkəˈmɛnd/",
+      "partOfSpeech": "verb",
+      "meaningVi": "gợi ý, đề xuất",
+      "definitionEn": "To bestow commendation on; to represent favourably; to suggest, endorse or encourage as an appropriate choice.",
+      "exampleEn": "The board recommends Philips, given his ample experience in similar positions.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/recommend-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "appointment",
+      "ipa": "/əˈpɔɪnt.mɛnt/",
+      "partOfSpeech": "noun",
+      "meaningVi": "cuộc hẹn",
+      "definitionEn": "The act of appointing a person to hold an office or to have a position of trust",
+      "exampleEn": "His appointment was deemed suitable",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/appointment-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "available",
+      "ipa": "/əˈveɪləb(ə)l/",
+      "partOfSpeech": "adjective",
+      "meaningVi": "có sẵn, rảnh (lịch)",
+      "definitionEn": "Such as one may avail oneself of; capable of being used for the accomplishment of a purpose.",
+      "exampleEn": "We have an available candidate.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/available-us.mp3",
+      "cefrLevel": "A2"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "feedback",
+      "ipa": "/ˈfiːdˌbæk/",
+      "partOfSpeech": "noun",
+      "meaningVi": "phản hồi, nhận xét",
+      "definitionEn": "Critical assessment of a process or activity or of their results.",
+      "exampleEn": "After you hand in your essays, I will give both grades and feedback.",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "ngsl-core-a1-a2",
+      "term": "fluent",
+      "ipa": "/ˈfluːənt/",
+      "partOfSpeech": "noun",
+      "meaningVi": "trôi chảy, lưu loát",
+      "definitionEn": "A continuous variable, especially one with respect to time in Newton's Method of Fluxions.",
+      "exampleEn": "He became fluent after six months of consistent 1-on-1 practice.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/fluent-us.mp3",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "collaborate",
+      "ipa": "/kəˈlabəɹeɪt/",
+      "partOfSpeech": "verb",
+      "meaningVi": "cộng tác, phối hợp làm việc",
+      "definitionEn": "To work together with others to achieve a common goal.",
+      "exampleEn": "Let's collaborate on this project, and get it finished faster.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/collaborate-us.mp3",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "deadline",
+      "ipa": "/ˈdɛdˌlaɪn/",
+      "partOfSpeech": "noun",
+      "meaningVi": "hạn chót hoàn thành",
+      "definitionEn": "A time limit in the form of a date on or before which something must be completed.",
+      "exampleEn": "I must make this deadline or my boss will kill me!",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/deadline-uk.mp3",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "clarify",
+      "ipa": "/ˈklæɹɪfaɪ/",
+      "partOfSpeech": "verb",
+      "meaningVi": "làm rõ (ý kiến, yêu cầu)",
+      "definitionEn": "(of liquids, such as wine or syrup) To make clear or bright by freeing from feculent matter",
+      "exampleEn": "Could you clarify what the client expects in the second milestone?",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/clarify-uk.mp3",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "priority",
+      "ipa": "/pɹaɪˈɒɹɨti/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự ưu tiên, việc ưu tiên hàng đầu",
+      "definitionEn": "An item's relative importance.",
+      "exampleEn": "He set his e-mail message's priority to high.",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "convinced",
+      "ipa": "/kənˈvɪnst/",
+      "partOfSpeech": "verb",
+      "meaningVi": "bị thuyết phục, tin chắc",
+      "definitionEn": "To make someone believe, or feel sure about something, especially by using logic, argument or evidence.",
+      "exampleEn": "I wouldn't have or do something, unless I'm convinced that it's good.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/convinced-us.mp3",
+      "contextNote": "Xuất hiện trong bài British Council: Agreeing and disagreeing",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "balance",
+      "ipa": "/ˈbæləns/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự cân bằng",
+      "definitionEn": "A state in which opposing forces harmonise; equilibrium.",
+      "exampleEn": "Removing the bright border creates a nice visual balance.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/balance-us.mp3",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "extension",
+      "ipa": "/ɪkˈstɛnʃən/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự gia hạn thêm thời gian",
+      "definitionEn": "The act of extending; a stretching out; enlargement in length or breadth; an increase",
+      "exampleEn": "Andrea called to ask for a payment extension from 30 to 60 days.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/extension-us.mp3",
+      "contextNote": "Xuất hiện trong bài British Council: A phone call from a customer",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "compromise",
+      "ipa": "/ˈkɒmpɹəˌmaɪz/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự thỏa hiệp, phương án dung hòa",
+      "definitionEn": "The settlement of differences by arbitration or by consent reached by mutual concessions.",
+      "exampleEn": "Both teams reached a fair compromise on the launch scope.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/compromise-us.mp3",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "efficient",
+      "ipa": "/əˈfɪʃənt/",
+      "partOfSpeech": "noun",
+      "meaningVi": "hiệu quả, tối ưu thời gian/nguồn lực",
+      "definitionEn": "A cause; something that causes an effect",
+      "exampleEn": "Spaced repetition is an efficient way to retain new vocabulary.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/efficient-us.mp3",
+      "cefrLevel": "B1"
+    },
+    {
+      "deckSlug": "cefr-b1-workplace-fluency",
+      "term": "negotiate",
+      "ipa": "/nəˈɡəʊ.ʃi.eɪt/",
+      "partOfSpeech": "verb",
+      "meaningVi": "đàm phán, thương lượng",
+      "definitionEn": "To confer with others in order to come to terms or reach an agreement.",
+      "exampleEn": "We need to negotiate flexible delivery milestones with the partner.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/negotiate-us.mp3",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "mitigate",
+      "ipa": "/ˈmɪt.ɪ.ɡeɪt/",
+      "partOfSpeech": "verb",
+      "meaningVi": "giảm thiểu, làm dịu bớt (tác động xấu)",
+      "definitionEn": "To reduce, lessen, or decrease; to make less severe or easier to bear.",
+      "exampleEn": "Expanding metro lines can significantly mitigate urban traffic congestion.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/mitigate-us.mp3",
+      "contextNote": "Nâng cấp từ \"solve/reduce\" lên Band 7.5+",
+      "cefrLevel": "C1"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "sustainable",
+      "ipa": "/səˈsteɪ.nə.bəl/",
+      "partOfSpeech": "adjective",
+      "meaningVi": "bền vững, thân thiện dài hạn",
+      "definitionEn": "Able to be maintained at a certain rate or level without depleting resources.",
+      "exampleEn": "Cities must invest in sustainable public infrastructure.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "infrastructure",
+      "ipa": "/ˈɪn.frə.strʌk.tʃər/",
+      "partOfSpeech": "noun",
+      "meaningVi": "cơ sở hạ tầng",
+      "definitionEn": "The basic physical and organizational structures needed for the operation of a society.",
+      "exampleEn": "Reliable transit infrastructure encourages commuters to leave cars at home.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "congestion",
+      "ipa": "/kənˈdʒes.tʃən/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự ùn tắc (giao thông)",
+      "definitionEn": "The state of being overcrowded, especially with traffic.",
+      "exampleEn": "Peak-hour congestion lowers productivity across major metropolitan areas.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "exacerbate",
+      "ipa": "/ɪɡˈzæs.ə.beɪt/",
+      "partOfSpeech": "verb",
+      "meaningVi": "làm trầm trọng thêm",
+      "definitionEn": "To make a problem, bad situation, or negative feeling worse.",
+      "exampleEn": "Unregulated urban sprawl can exacerbate air pollution.",
+      "cefrLevel": "C1"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "incentive",
+      "ipa": "/ɪnˈsen.tɪv/",
+      "partOfSpeech": "noun",
+      "meaningVi": "động lực, chính sách khuyến khích",
+      "definitionEn": "A thing that motivates or encourages someone to do something.",
+      "exampleEn": "Tax incentives motivate companies to adopt renewable energy.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "disparity",
+      "ipa": "/dɪˈspær.ə.ti/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự chênh lệch, bất bình đẳng",
+      "definitionEn": "A great difference, especially one perceived as unfair.",
+      "exampleEn": "There is a widening disparity between urban and rural healthcare access.",
+      "cefrLevel": "C1"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "resilient",
+      "ipa": "/rɪˈzɪl.i.ənt/",
+      "partOfSpeech": "adjective",
+      "meaningVi": "kiên cường, thích ứng phục hồi nhanh",
+      "definitionEn": "Able to withstand or recover quickly from difficult conditions.",
+      "exampleEn": "Coastal cities need resilient drainage systems against extreme weather.",
+      "cefrLevel": "C1"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "inevitable",
+      "ipa": "/ɪˈnev.ɪ.tə.bəl/",
+      "partOfSpeech": "adjective",
+      "meaningVi": "không thể tránh khỏi",
+      "definitionEn": "Certain to happen; unavoidable.",
+      "exampleEn": "Automation is an inevitable trend in modern manufacturing.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "ielts-academic-urban-env",
+      "term": "allocate",
+      "ipa": "/ˈæl.ə.keɪt/",
+      "partOfSpeech": "verb",
+      "meaningVi": "phân bổ (ngân sách, nguồn lực)",
+      "definitionEn": "To distribute resources or duties for a particular purpose.",
+      "exampleEn": "Municipalities should allocate more funding to green spaces.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "alignment",
+      "ipa": "/əˈlaɪn.mənt/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự đồng thuận, thống nhất hướng đi",
+      "definitionEn": "Arrangement in a straight line or agreement among stakeholders on shared goals.",
+      "exampleEn": "Let us schedule a 15-minute sync to ensure stakeholder alignment.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "feasible",
+      "ipa": "/ˈfiː.zə.bəl/",
+      "partOfSpeech": "adjective",
+      "meaningVi": "khả thi (thực hiện được)",
+      "definitionEn": "Possible to do easily or conveniently.",
+      "exampleEn": "Shipping all five features this quarter does not look feasible.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "bottleneck",
+      "ipa": "/ˈbɒt.əl.nek/",
+      "partOfSpeech": "noun",
+      "meaningVi": "điểm nghẽn (trong quy trình)",
+      "definitionEn": "A point of congestion in a production system that slows down the whole process.",
+      "exampleEn": "Manual QA testing became a major bottleneck before launch.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "delegate",
+      "ipa": "/ˈdel.ɪ.ɡeɪt/",
+      "partOfSpeech": "verb",
+      "meaningVi": "ủy quyền, phân công đầu việc",
+      "definitionEn": "To entrust a task or responsibility to another person.",
+      "exampleEn": "Effective managers know when to delegate routine reporting.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "benchmark",
+      "ipa": "/ˈbentʃ.mɑːk/",
+      "partOfSpeech": "noun",
+      "meaningVi": "chuẩn đối chiếu, thước đo chuẩn",
+      "definitionEn": "A standard or point of reference against which things may be compared.",
+      "exampleEn": "We use CEFR B2 fluency as a benchmark for client-facing roles.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "leverage",
+      "ipa": "/ˈlev.ər.ɪdʒ/",
+      "partOfSpeech": "verb",
+      "meaningVi": "tận dụng đòn bẩy, khai thác lợi thế",
+      "definitionEn": "To use something to maximum advantage.",
+      "exampleEn": "Teams can leverage AI summaries while keeping human review final.",
+      "cefrLevel": "C1"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "consensus",
+      "ipa": "/kənˈsen.səs/",
+      "partOfSpeech": "noun",
+      "meaningVi": "sự nhất trí chung của tập thể",
+      "definitionEn": "A general agreement among a group of people.",
+      "exampleEn": "After a candid debate, the committee reached a consensus.",
+      "cefrLevel": "C1"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "agile",
+      "ipa": "/ˈædʒ.aɪl/",
+      "partOfSpeech": "adjective",
+      "meaningVi": "linh hoạt, thích ứng nhanh",
+      "definitionEn": "Able to move quickly and easily; adaptable to rapid change.",
+      "exampleEn": "Agile working lets teams adjust priorities based on real user feedback.",
+      "contextNote": "Xuất hiện trong bài British Council: Agile working",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "implement",
+      "ipa": "/ˈɪm.plɪ.ment/",
+      "partOfSpeech": "verb",
+      "meaningVi": "triển khai, thực thi",
+      "definitionEn": "To put a decision, plan, or agreement into effect.",
+      "exampleEn": "We plan to implement the new onboarding flow next Monday.",
+      "cefrLevel": "B2"
+    },
+    {
+      "deckSlug": "business-meetings-negotiation",
+      "term": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "partOfSpeech": "adjective",
+      "meaningVi": "ngắn gọn, súc tích",
+      "definitionEn": "Giving a lot of information clearly and in a few words.",
+      "exampleEn": "Executive updates should be concise and backed by clear metrics.",
+      "cefrLevel": "B2"
+    }
+  ]
+}

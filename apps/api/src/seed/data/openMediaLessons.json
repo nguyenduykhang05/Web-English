@@ -1,0 +1,355 @@
+[
+  {
+    "slug": "voa-welcome-anna-a1",
+    "title": "Let's Learn English: Welcome to My Apartment",
+    "titleVi": "Làm quen & Chào hỏi tự nhiên (VOA Level 1 · A1–A2)",
+    "topic": "Daily Life & Introductions",
+    "cefrLevel": "A1",
+    "goalType": "communication",
+    "durationSec": 36,
+    "mediaType": "mp4",
+    "mediaUrl": "https://voa-video-ns.akamaized.net/pangeavideo/2021/02/5/5f/5f00c78a-0f84-41e6-949d-bd808bcadf50_480p.mp4",
+    "youtubeId": "IpIhzFh0yw8",
+    "sourceName": "VOA Learning English (Public Domain)",
+    "sourceUrl": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+    "licenseNote": "Public Domain (U.S. Government / Voice of America Learning English).",
+    "segments": [
+      {
+        "index": 0,
+        "speaker": "Pete",
+        "startSec": 0,
+        "endSec": 5,
+        "textEn": "Hi! Are you Anna?",
+        "textVi": "Chào bạn! Bạn là Anna phải không?",
+        "keyPhrase": "Are you..."
+      },
+      {
+        "index": 1,
+        "speaker": "Anna",
+        "startSec": 5,
+        "endSec": 10,
+        "textEn": "Yes! Hi there! Are you Pete?",
+        "textVi": "Đúng rồi! Chào bạn! Bạn là Pete à?",
+        "keyPhrase": "Hi there!"
+      },
+      {
+        "index": 2,
+        "speaker": "Pete",
+        "startSec": 10,
+        "endSec": 15,
+        "textEn": "I am Pete.",
+        "textVi": "Mình là Pete."
+      },
+      {
+        "index": 3,
+        "speaker": "Anna",
+        "startSec": 15,
+        "endSec": 20,
+        "textEn": "I'm Anna. Nice to meet you.",
+        "textVi": "Mình là Anna. Rất vui được gặp bạn.",
+        "keyPhrase": "Nice to meet you"
+      },
+      {
+        "index": 4,
+        "speaker": "Pete",
+        "startSec": 20,
+        "endSec": 25,
+        "textEn": "Welcome to 1400 Irving Street!",
+        "textVi": "Chào mừng đến số 1400 phố Irving!",
+        "keyPhrase": "Welcome to"
+      },
+      {
+        "index": 5,
+        "speaker": "Anna",
+        "startSec": 25,
+        "endSec": 30,
+        "textEn": "My new apartment! Yes!",
+        "textVi": "Căn hộ mới của mình! Tuyệt quá!",
+        "keyPhrase": "apartment"
+      }
+    ]
+  },
+  {
+    "slug": "voa-budget-cuts-b1",
+    "title": "Level 2: Workplace Rumors & Budget Cuts",
+    "titleVi": "Trao đổi nơi công sở & Tin tức cuộc họp (VOA Level 2 · B1)",
+    "topic": "Workplace Communication",
+    "cefrLevel": "B1",
+    "goalType": "business",
+    "durationSec": 30,
+    "mediaType": "mp4",
+    "mediaUrl": "https://voa-video-ns.akamaized.net/pangeavideo/2021/02/7/7a/7a055fd0-0345-41e4-b24d-37df1736f3d1_480p.mp4",
+    "sourceName": "VOA Learning English (Public Domain)",
+    "sourceUrl": "https://learningenglish.voanews.com/a/lets-learn-english-level-2-lesson1/3960391.html",
+    "licenseNote": "Public Domain (U.S. Government / Voice of America Learning English).",
+    "segments": [
+      {
+        "index": 0,
+        "speaker": "Anna",
+        "startSec": 0,
+        "endSec": 5,
+        "textEn": "My boss has called an important meeting.",
+        "textVi": "Sếp của mình vừa triệu tập một cuộc họp quan trọng.",
+        "keyPhrase": "called a meeting"
+      },
+      {
+        "index": 1,
+        "speaker": "Anna",
+        "startSec": 5,
+        "endSec": 10,
+        "textEn": "So, Jonathan, what do you think today is about?",
+        "textVi": "Vậy Jonathan, cậu nghĩ hôm nay họp về chuyện gì?",
+        "keyPhrase": "what do you think"
+      },
+      {
+        "index": 2,
+        "speaker": "Jonathan",
+        "startSec": 10,
+        "endSec": 15,
+        "textEn": "Well, I have heard people talking about budget cuts.",
+        "textVi": "À, mình nghe mọi người nói về việc cắt giảm ngân sách.",
+        "keyPhrase": "budget cuts"
+      },
+      {
+        "index": 3,
+        "speaker": "Anna",
+        "startSec": 15,
+        "endSec": 20,
+        "textEn": "We should not gossip because that is how rumors start.",
+        "textVi": "Chúng ta không nên bàn tán vì tin đồn bắt đầu từ đó.",
+        "keyPhrase": "rumors start"
+      },
+      {
+        "index": 4,
+        "speaker": "Jonathan",
+        "startSec": 20,
+        "endSec": 25,
+        "textEn": "You are right, let us wait and see what happens.",
+        "textVi": "Cậu nói đúng, cứ chờ xem chuyện gì sẽ xảy ra.",
+        "keyPhrase": "wait and see"
+      }
+    ]
+  },
+  {
+    "slug": "bc-agreeing-disagreeing-b1",
+    "title": "Agreeing and Disagreeing Politely in Design Review",
+    "titleVi": "Đồng ý & Phản biện lịch sự trong họp sản phẩm (B1)",
+    "topic": "Design & Product Critique",
+    "cefrLevel": "B1",
+    "goalType": "business",
+    "durationSec": 84,
+    "mediaType": "speech",
+    "sourceName": "British Council LearnEnglish",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/speaking/b1/agreeing-disagreeing",
+    "licenseNote": "Public free resource transcript attributed to British Council LearnEnglish.",
+    "segments": [
+      {
+        "index": 0,
+        "speaker": "Paul",
+        "startSec": 0,
+        "endSec": 5,
+        "textEn": "So?",
+        "textVi": "Thế nào?"
+      },
+      {
+        "index": 1,
+        "speaker": "Emir",
+        "startSec": 5,
+        "endSec": 10,
+        "textEn": "I'm not convinced by that idea.",
+        "textVi": "Mình chưa thực sự bị thuyết phục bởi ý tưởng đó."
+      },
+      {
+        "index": 2,
+        "speaker": "Paul",
+        "startSec": 10,
+        "endSec": 15,
+        "textEn": "Why?",
+        "textVi": "Tại sao vậy?"
+      },
+      {
+        "index": 3,
+        "speaker": "Emir",
+        "startSec": 15,
+        "endSec": 20,
+        "textEn": "Well, this design is just too simple.",
+        "textVi": "Ờ, bản thiết kế này trông hơi đơn giản quá."
+      },
+      {
+        "index": 4,
+        "speaker": "Paul",
+        "startSec": 20,
+        "endSec": 25,
+        "textEn": "It's not simple, it's minimal. Plus, it's what the client asked for.",
+        "textVi": "Nó không phải đơn giản đâu, mà là phong cách tối giản theo đúng yêu cầu khách hàng."
+      },
+      {
+        "index": 5,
+        "speaker": "Emir",
+        "startSec": 25,
+        "endSec": 30,
+        "textEn": "I'm not so sure. Look … Look at these designs here. I think this is the style that the client wants.",
+        "textVi": "Mình không chắc lắm. Hãy xem lại các mẫu thiết kế này xem. Mình nghĩ đây mới là phong cách khách hàng muốn."
+      },
+      {
+        "index": 6,
+        "speaker": "Paul",
+        "startSec": 30,
+        "endSec": 35,
+        "textEn": "Hmmm … I think I disagree. They said they wanted it clean and minimal.",
+        "textVi": "Ừm... mình nghĩ mình không đồng tình. Họ nói họ muốn sự gọn gàng và tối giản."
+      },
+      {
+        "index": 7,
+        "speaker": "Emir",
+        "startSec": 35,
+        "endSec": 40,
+        "textEn": "These designs are clean and minimal.",
+        "textVi": "Các thiết kế này đúng là gọn gàng và tối giản."
+      },
+      {
+        "index": 8,
+        "speaker": "Paul",
+        "startSec": 40,
+        "endSec": 45,
+        "textEn": "Look, don't get me wrong, Emir. I like them, but I don't think they fit the brief. For example, here, there's just a bit too much going on.",
+        "textVi": "Nghe này, đừng hiểu nhầm ý mình. Mình thích chúng nhưng thấy chưa khớp đề bài. Ví dụ ở đây hơi có quá nhiều chi tiết."
+      },
+      {
+        "index": 9,
+        "speaker": "Emir",
+        "startSec": 45,
+        "endSec": 50,
+        "textEn": "OK, I see what you mean, but without all the colour, it would look a bit … empty.",
+        "textVi": "Được rồi, mình hiểu ý bạn, nhưng bỏ hết màu đi sẽ trông hơi trống trải."
+      },
+      {
+        "index": 10,
+        "speaker": "Paul",
+        "startSec": 50,
+        "endSec": 55,
+        "textEn": "True. OK, how about taking that and that away? So it still looks interesting, but less busy.",
+        "textVi": "Đúng vậy. Vậy thử bỏ chi tiết này và chi tiết kia đi xem? Để vẫn thú vị mà bớt rối hơn."
+      },
+      {
+        "index": 11,
+        "speaker": "Emir",
+        "startSec": 55,
+        "endSec": 60,
+        "textEn": "OK … maybe you've got a point there. Actually, that has given me an idea.",
+        "textVi": "Được đó... có lẽ bạn có lý ở điểm này. Thực ra điều đó vừa gợi cho mình một ý tưởng."
+      },
+      {
+        "index": 12,
+        "speaker": "Emir",
+        "startSec": 60,
+        "endSec": 65,
+        "textEn": "So we remove the blue. I think that creates a nice balance.",
+        "textVi": "Vậy mình bỏ màu xanh nhé. Mình nghĩ làm vậy sẽ tạo được sự cân bằng đẹp."
+      },
+      {
+        "index": 13,
+        "speaker": "Paul",
+        "startSec": 65,
+        "endSec": 70,
+        "textEn": "Yeah, yeah. I think you're right. Changing the circles helped too.",
+        "textVi": "Ừ, đúng rồi. Mình nghĩ bạn nói phải. Đổi mấy hình tròn cũng giúp ích đấy."
+      }
+    ]
+  },
+  {
+    "slug": "bc-customer-phone-call-b1",
+    "title": "A Phone Call From a Customer: Payment Terms",
+    "titleVi": "Nghe cuộc gọi khách hàng xin gia hạn thanh toán (B1)",
+    "topic": "Business Calls & Negotiation",
+    "cefrLevel": "B1",
+    "goalType": "business",
+    "durationSec": 60,
+    "mediaType": "speech",
+    "sourceName": "British Council LearnEnglish",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/listening/b1/phone-call-customer",
+    "licenseNote": "Public free resource transcript attributed to British Council LearnEnglish.",
+    "segments": [
+      {
+        "index": 0,
+        "speaker": "Junko",
+        "startSec": 0,
+        "endSec": 5,
+        "textEn": "Hello, Junko Mori speaking. How can I help you?",
+        "textVi": "Xin chào, Junko Mori đang nghe. Tôi có thể giúp gì cho bạn?"
+      },
+      {
+        "index": 1,
+        "speaker": "Andrea",
+        "startSec": 5,
+        "endSec": 10,
+        "textEn": "Hi, Junko, it's Andrea here from Red Band. I'm calling about our latest order.",
+        "textVi": "Chào Junko, tôi là Andrea từ Red Band gọi về đơn hàng gần nhất."
+      },
+      {
+        "index": 2,
+        "speaker": "Junko",
+        "startSec": 10,
+        "endSec": 15,
+        "textEn": "Everything arrived OK, right? We got the delivery confirmation at our end.",
+        "textVi": "Mọi thứ đã giao đến ổn thỏa chứ? Bên tôi đã nhận được xác nhận giao hàng."
+      },
+      {
+        "index": 3,
+        "speaker": "Andrea",
+        "startSec": 15,
+        "endSec": 20,
+        "textEn": "Yes, everything's fine with the order. I'm calling about the invoice and the payment terms. I need a favour.",
+        "textVi": "Vâng, đơn hàng ổn cả. Tôi gọi để trao đổi về hóa đơn và hạn thanh toán."
+      },
+      {
+        "index": 4,
+        "speaker": "Junko",
+        "startSec": 20,
+        "endSec": 25,
+        "textEn": "A favour? What do you need?",
+        "textVi": "Bạn cần hỗ trợ điều gì vậy?"
+      },
+      {
+        "index": 5,
+        "speaker": "Andrea",
+        "startSec": 25,
+        "endSec": 30,
+        "textEn": "This is a little, er ... difficult, but I need an extension on the payment terms. I know they're usually 30 days, but we're having some cash flow problems. You'd really be helping us out if you could extend it to 60 days.",
+        "textVi": "Hơi khó mở lời nhưng tôi cần gia hạn thời gian thanh toán lên 60 ngày."
+      },
+      {
+        "index": 6,
+        "speaker": "Junko",
+        "startSec": 30,
+        "endSec": 35,
+        "textEn": "I'm not sure if I can do that, Andrea. We've got regulations at our end, and also have to manage our own cash flow.",
+        "textVi": "Tôi không chắc có thể làm vậy vì chúng tôi cũng cần quản lý dòng tiền."
+      },
+      {
+        "index": 7,
+        "speaker": "Andrea",
+        "startSec": 35,
+        "endSec": 40,
+        "textEn": "I promise this won't become the norm, Junko. Actually, I also want to place another new order. The same size order as last time. It's for an important customer and they pay on delivery.",
+        "textVi": "Tôi hứa việc này sẽ không thành tiền lệ, và tôi cũng muốn đặt thêm đơn mới."
+      },
+      {
+        "index": 8,
+        "speaker": "Junko",
+        "startSec": 40,
+        "endSec": 45,
+        "textEn": "I see. So your cash flow problem will be solved after this new order is delivered.",
+        "textVi": "Tôi hiểu rồi. Vậy khó khăn dòng tiền sẽ được giải quyết sau đơn hàng mới."
+      },
+      {
+        "index": 9,
+        "speaker": "Andrea",
+        "startSec": 45,
+        "endSec": 50,
+        "textEn": "Exactly.",
+        "textVi": "Chính xác là như vậy."
+      }
+    ]
+  }
+]
