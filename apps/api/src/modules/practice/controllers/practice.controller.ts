@@ -124,7 +124,45 @@ export async function listMediaLessonsController(req: Request, res: Response, ne
         topic: z.string().trim().optional(),
       })
       .parse(req.query);
-    const data = await listMediaLessons(query);
+    const data = await listMediaLessons(
+      query,
+      req.user ? { id: req.user.id, role: req.user.role } : undefined,
+    );
+    res.json({ data });
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function importYoutubeMediaController(
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) {
+  try {
+    if (!req.user) throw new AppError(401, 'UNAUTHORIZED', 'Unauthorized');
+    const body = ImportYoutubeMediaSchema.parse(req.body);
+    const data = await importYoutubeMediaLesson({ id: req.user.id, role: req.user.role }, body);
+    res.status(201).json({ data });
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function lookupWordController(req: Request, res: Response, next: NextFunction) {
+  try {
+    const { word } = z.object({ word: z.string().trim().min(1).max(80) }).parse(req.query);
+    const data = await lookupDictionaryWord(word);
+    res.json({ data });
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function getPracticeStatsController(req: Request, res: Response, next: NextFunction) {
+  try {
+    if (!req.user) throw new AppError(401, 'UNAUTHORIZED', 'Unauthorized');
+    const data = await getPracticeStats(req.user.id);
     res.json({ data });
   } catch (err) {
     next(err);
