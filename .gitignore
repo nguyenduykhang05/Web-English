@@ -1,0 +1,28 @@
+node_modules
+dist
+build
+.env
+.env.*.local
+*.log
+coverage
+test-results
+playwright-report
+.vscode
+.idea
+
+# Build caches
+*.tsbuildinfo
+
+# Agent skills & agent instructions
+.agents/
+skills-lock.json
+AGENTS.md
+CLAUDE.md
+**/.impeccable/
+DESIGN.md
+**/DESIGN.md
+PRODUCT.md
+**/PRODUCT.md
+
+# Non-runtime documentation
+docs/

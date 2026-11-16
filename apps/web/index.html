@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebEnglish — Học tiếng Anh 1-1 cá nhân hoá</title>
+    <meta
+      name="description"
+      content="Nền tảng đào tạo tiếng Anh 1 giáo viên - 1 học viên theo hồ sơ năng lực 7 kỹ năng, lộ trình CEFR cá nhân hoá và sổ cái buổi học minh bạch."
+    />
+    <meta property="og:title" content="WebEnglish — Học tiếng Anh 1-1 cá nhân hoá" />
+    <meta
+      property="og:description"
+      content="Đặt lịch học 1-1 linh hoạt theo múi giờ GMT+7, theo dõi tiến bộ từng buổi học và lộ trình riêng."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem('we-theme');
+          if (saved === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch {
+          // Ignore storage errors in restricted environments
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+include:
+  - node_modules
+  - dist
+  - build
+  - .git
+  - docker-compose*.yml
+  - Dockerfile*
+  - .env
+  - .env.*.local
