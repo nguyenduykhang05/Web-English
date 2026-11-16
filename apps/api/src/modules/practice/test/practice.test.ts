@@ -355,4 +355,62 @@ describe('Practice module — SRS Flashcards, Session Vocab Sync, Dictation/Shad
     expect(teacherApprove.body.data.proposedStatus).toBe('approved');
     expect(teacherApprove.body.data.verifiedScore).toBe(88);
   });
+
+  it('imports personal YouTube lesson with IDOR guard, supports dictionary lookup & 30-day heatmap stats', async () => {
+    const importRes = await request(app)
+      .post('/api/v1/practice/media/import')
+      .set('Authorization', `Bearer ${studentToken}`)
+      .send({
+        youtubeUrl: 'https://www.youtube.com/watch?v=IpIhzFh0yw8',
+        title: 'Daily Routine Shadowing Practice',
+        cefrLevel: 'A2',
+        transcriptText: 'First I wake up at seven.\nThen I make a cup of coffee.',
+      });
+    expect(importRes.status).toBe(201);
+    expect(importRes.body.data.youtubeId).toBe('IpIhzFh0yw8');
+    expect(importRes.body.data.segments.length).toBe(2);
+    expect(importRes.body.data.studyGuide.mindmapBranches.length).toBeGreaterThan(0);
+
+    const personalLessonId = importRes.body.data.id as string;
+
+    // Another student cannot see or submit attempts to this personal lesson
+    const otherListRes = await request(app)
+      .get('/api/v1/practice/media')
+      .set('Authorization', `Bearer ${otherStudentToken}`);
+    expect(otherListRes.status).toBe(200);
+    expect(otherListRes.body.data.some((l: { id: string }) => l.id === personalLessonId)).toBe(false);
+
+    const otherDictRes = await request(app)
+      .post('/api/v1/practice/dictation')
+      .set('Authorization', `Bearer ${otherStudentToken}`)
+      .send({
+        lessonId: personalLessonId,
+        segmentIndex: 0,
+        typedText: 'First I wake up at seven.',
+      });
+    expect(otherDictRes.status).toBe(403);
+
+    // Owner submits dictation & checks 30-day heatmap stats
+    const ownerDictRes = await request(app)
+      .post('/api/v1/practice/dictation')
+      .set('Authorization', `Bearer ${studentToken}`)
+      .send({
+        lessonId: personalLessonId,
+        segmentIndex: 0,
+        typedText: 'First I wake up at seven.',
+      });
+    expect(ownerDictRes.status).toBe(201);
+
+    const statsRes = await request(app)
+      .get('/api/v1/practice/stats')
+      .set('Authorization', `Bearer ${studentToken}`);
+    expect(statsRes.status).toBe(200);
+    expect(statsRes.body.data.heatmap30Days.length).toBe(30);
+    expect(statsRes.body.data.todayMinutes).toBeGreaterThan(0);
+
+    const lookupRes = await request(app).get('/api/v1/practice/lookup?word=schedule');
+    expect(lookupRes.status).toBe(200);
+    expect(lookupRes.body.data.cambridgeUrl).toContain('cambridge.org');
+    expect(lookupRes.body.data.oxfordUrl).toContain('oxfordlearnersdictionaries.com');
+  });
 });
