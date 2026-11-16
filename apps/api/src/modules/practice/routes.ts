@@ -3,11 +3,14 @@ import { optionalAuth, requireAuth, requireRole } from '../../middleware/auth.js
 import {
   createCustomCardController,
   getDeckController,
+  getPracticeStatsController,
   getSrsQueueController,
+  importYoutubeMediaController,
   listAttemptsController,
   listDecksController,
   listIpaController,
   listMediaLessonsController,
+  lookupWordController,
   reviewAttemptController,
   reviewSrsCardController,
   submitDictationController,
@@ -59,6 +62,9 @@ router.get('/ipa', optionalAuth, listIpaController);
  *         description: Danh sách bài nghe tách theo từng câu
  */
 router.get('/media', optionalAuth, listMediaLessonsController);
+router.post('/media/import', requireAuth, importYoutubeMediaController);
+router.get('/lookup', optionalAuth, lookupWordController);
+router.get('/stats', requireAuth, getPracticeStatsController);
 router.post('/dictation', requireAuth, requireRole('student'), submitDictationController);
 router.post('/shadowing', requireAuth, requireRole('student'), submitShadowingController);
 router.get('/attempts', requireAuth, listAttemptsController);
